@@ -1,0 +1,20 @@
+Comandos do git
+Para identificar o usuário quando comitar
+Omita --global para definir a identidade apenas neste repositório.
+git config --global user.name "Nome do usuário"
+git config --global user.email "E-mail do usuário"
+
+Git -h: Exibe comandos do git e suas funcionalidades.
+Nota1: Pode ser combinado com com outro comando como por exemplo: Git branch -h.
+Nota2: Hífem antes de uma letra mostra que é um comando resumido. Quando se utiliza a palavra inteira, usa-se dois hífens antes da palavra.
+Como no caso do comando git --global
+
+Cd: Indicar o caminho da pasta a ser aberta
+Git init: Iniciar um repositório na pasta aberta
+Git add "arquivo": Tornar visível o arquivo mensionado ao git.
+Precisa estar no diretório local da pasta .git e não dentro.
+Git commit -m "mensagem": Comitar uma mensagem.
+Git log: Retorna o histórico de commits.
+Git status: Retorna o branch  em foco e as alterações feitas no repositório
+git checkout -b "Nome do novo branch": Cria um novo ramo no projeto e migra pra ele.
+Nota: git checkout -b <branch name> é o atalho de git branch <branch name> seguido por git checkout 
